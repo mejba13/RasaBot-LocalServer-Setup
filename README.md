@@ -1,6 +1,8 @@
 
 # RasaBot - Setup Rasa on Local Server & Run
 
+![Rasa Server Setup](https://s3.us-east-1.amazonaws.com/mejba.me/AI/only-rasa-server.png)
+
 ## About This Project
 This repository provides a complete guide to setting up and running Rasa on a local server. You'll learn how to:
 - Set up a Python virtual environment
@@ -108,9 +110,6 @@ docker compose up --build -d
 After running the server, you can test the chatbot by sending messages through the shell or API calls to validate responses and intents.
 
 ---
-
-![Rasa Server Setup](https://s3.us-east-1.amazonaws.com/mejba.me/AI/only-rasa-server.png)
-
 
 ## 🔗 Let's Connect  
 
