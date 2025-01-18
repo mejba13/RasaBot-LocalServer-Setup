@@ -1,0 +1,38 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+    - Hi there
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+
+- intent: ask_product_availability
+  examples: |
+    - Is the product available?
+    - Can I buy this item now?
+    - Is this item in stock?
+
+- intent: ask_delivery_time
+  examples: |
+    - How long does delivery take?
+    - When will I receive my order?
+    - What is the delivery time?
+
+- intent: ask_return_policy
+  examples: |
+    - What is your return policy?
+    - Can I return a product?
+    - How do I return an item?
+
+- intent: payment_issue
+  examples: |
+    - I have an issue with payment
+    - Payment is not going through
+    - My payment failed

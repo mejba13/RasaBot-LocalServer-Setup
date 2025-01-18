@@ -1,0 +1,10 @@
+{
+  "0": "ask_delivery_time",
+  "1": "ask_order_status",
+  "2": "faq",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "payment_issue",
+  "6": "product_availability",
+  "7": "return_policy"
+}

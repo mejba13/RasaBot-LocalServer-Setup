@@ -1,0 +1,31 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - ask_product_availability
+  - ask_delivery_time
+  - ask_return_policy
+  - payment_issue
+
+responses:
+  utter_greet:
+    - text: "Hi! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_product_availability:
+    - text: "Yes, the product is available. Would you like assistance with purchasing it?"
+
+  utter_ask_delivery_time:
+    - text: "Delivery usually takes 3-5 business days."
+
+  utter_return_policy:
+    - text: "Our return policy allows returns within 30 days of purchase."
+
+  utter_payment_issue:
+    - text: "Could you please share more details about the payment issue?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

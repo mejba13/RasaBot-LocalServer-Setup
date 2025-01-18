@@ -1,0 +1,18 @@
+services:
+  rasa:
+    image: rasa/rasa:3.6.0
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./:/app
+    command:
+      - rasa run --enable-api --cors "*"
+
+  action_server:
+    image: rasa/rasa-sdk:3.6.0
+    ports:
+      - "5055:5055"
+    volumes:
+      - ./actions:/app/actions
+    command:
+      - start

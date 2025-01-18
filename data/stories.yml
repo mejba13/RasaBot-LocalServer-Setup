@@ -1,0 +1,28 @@
+version: "3.1"
+stories:
+- story: greet and ask product availability
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_product_availability
+  - action: utter_product_availability
+
+- story: ask delivery time
+  steps:
+  - intent: ask_delivery_time
+  - action: utter_ask_delivery_time
+
+- story: ask return policy
+  steps:
+  - intent: ask_return_policy
+  - action: utter_return_policy
+
+- story: payment issue resolution
+  steps:
+  - intent: payment_issue
+  - action: utter_payment_issue
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
